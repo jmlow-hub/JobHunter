@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+.userSignIn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(119, 152, 192, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+.userSignIn input {
+  width: 250px;
+  background-color: transparent;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  color: #f7f0f6;
+  font-family: "Work Sans", sans-serif;
+  border: 1px solid #f7f0f6;
+  border-radius: 20px;
+}
+.userSignIn ::placeholder {
+  color: #f7f0f6;
+  opacity: 1;
+  /* Firefox */
+  font-family: "Work Sans", sans-serif;
+}
+.userSignIn button {
+  width: 150px;
+  border-radius: 20px;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px;
+  margin: 20px;
+  background: rgba(114, 55, 83, 0.5);
+  color: #f7f0f6;
+  border: 1px solid #f7f0f6;
+  border-radius: 20px;
+}
+.userSignIn p {
+  font-family: "Work Sans", sans-serif;
+  color: #f7f0f6;
+  font-size: 0.8em;
+  padding-bottom: 5px;
+}

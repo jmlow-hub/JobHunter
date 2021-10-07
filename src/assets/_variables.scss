@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+//fonts
+$primary-font: 'Work Sans', sans-serif;
+
+//colours
+$text-color: rgb(247, 240, 246);
+
+
+//backgrounds
+@mixin gradient {
+  background: #3a6186;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+}
+
+//border
+@mixin border {
+  border: 1px solid rgb(247, 240, 246);
+  border-radius: 20px;
+}
+

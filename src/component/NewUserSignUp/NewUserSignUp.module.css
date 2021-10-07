@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+.newUserSignUp {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.newUserSignUp h1 {
+  font-family: "Work Sans", sans-serif;
+  color: #f7f0f6;
+  font-size: 0.9em;
+}
+.newUserSignUp__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(119, 152, 192, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+.newUserSignUp__form input {
+  width: 250px;
+  background-color: transparent;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  color: #f7f0f6;
+  font-family: "Work Sans", sans-serif;
+  border: none;
+  box-shadow: 2px 2px 10px #f7f0f6;
+  border-radius: 20px;
+}
+.newUserSignUp__form ::placeholder {
+  color: #f7f0f6;
+  opacity: 1;
+  /* Firefox */
+  font-family: "Work Sans", sans-serif;
+}
+.newUserSignUp__form button {
+  width: 150px;
+  border-radius: 20px;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px;
+  margin: 20px;
+  background: rgba(114, 55, 83, 0.5);
+  color: #f7f0f6;
+  border: none;
+  box-shadow: 2px 2px 10px #f7f0f6;
+  border-radius: 20px;
+}
+.newUserSignUp__form p {
+  font-family: "Work Sans", sans-serif;
+  color: #f7f0f6;
+  font-size: 0.8em;
+  padding-bottom: 5px;
+}

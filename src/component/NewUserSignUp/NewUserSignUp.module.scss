@@ -1,0 +1,75 @@
+@import "../../assets/variables";
+
+.newUserSignUp {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+    h1{
+      font-family: $primary-font;
+      color: $text-color;
+      font-size: 0.9em;
+    }
+ 
+
+    &__form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+      background: rgba(119, 152, 192, .3);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+
+
+      input {
+        width: 250px;
+        background-color: transparent;
+        font-family: $primary-font;
+        padding: 10px;
+        text-align: center;
+        margin: 20px;
+        color: $text-color;
+        font-family: $primary-font;
+  
+        @include border;
+      }
+  
+      ::placeholder {
+        color: $text-color;
+        opacity: 1; /* Firefox */
+        font-family: $primary-font;
+      }
+  
+      button {
+        width: 150px;
+        border-radius: 20px;
+        font-family: $primary-font;
+        padding: 10px;
+        margin: 20px;
+        background: rgba(114, 55, 83, 0.5);
+        color: $text-color;
+        
+        @include border;   
+     }
+  
+     p {
+       font-family: $primary-font;
+       color: $text-color;
+       font-size: 0.8em;
+       padding-bottom: 5px;
+     }
+  
+
+      
+    }
+
+   
+
+
+
+}
